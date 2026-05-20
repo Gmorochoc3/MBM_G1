@@ -43,7 +43,7 @@ PlastFlow: predicción de ADN plasmídico o cromosómico
 
 Staramr: buscar genes de resistencia antimicrobiana
 
-WORKFLOW  
+#### WORKFLOW  
 
 El workflow bioinformático inició con la descarga de secuencias genómicas desde la base de datos SRA del NCBI correspondientes a los aislados clínicos SRR38520180 y SRR38509012.  
 
