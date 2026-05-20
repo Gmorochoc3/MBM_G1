@@ -108,11 +108,13 @@ En conjunto, estas plataformas optimizan el tiempo de análisis, nos ayudaron a 
 Los genes de resistencia antimicrobiana identificados en los aislados de *Pseudomonas aeruginosa* se asociaron principalmente a ADN cromosómico y no plasmídico, lo que sugiere mecanismos de resistencia intrínseca o adaptativa propios de la bacteria. Además, las herramientas bioinformáticas utilizadas permitieron identificar eficientemente genes de resistencia y secuencias plasmídicas potenciales.
 
 ## Contribución individual  
-Resumen breve
+
 Génesis Morocho: Creación del repositorio de github y añadir a los coolaboradores. Diseño del flujo de trabajo, investigación e interpretación de los genes de resistencia en plásmidos.  
-Jose Proaño: desarrollo de lineas de comando para el ensamblaje y calidad de secuencias  
+Jose Proaño: desarrollo de lineas de comando para el ensamblaje y calidad de secuencias.
+Michelle Yugcha: Búsqueda se secuencias de trabajo y desarrollo del análisis en la plataforma Galaxy.  
 
 ## Cómo reproducir (scripts)
+Dentro de la carpeta data, processed, se puede encontrar el script que se uso en Ubuntu.   
 
 ## Tutorial de Galaxy
 Willem de Koning, Saskia Hiltemann, Detección de resistencia a antibióticos (Materiales de capacitación de Galaxy) . https://training.galaxyproject.org/training-material/topics/microbiome/tutorials/plasmid-metagenomics-nanopore/tutorial.html En línea; consultado el miércoles 13 de mayo de 2026.
