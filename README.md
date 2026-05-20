@@ -45,9 +45,11 @@ Procedencia: Wyoming Public Health Laboratory, Estados Unidos
 
 4. SPAdes: formación de conting
 
-5. PlastFlow: Predicción de ADN plasmídico o cromosómico  
+5. Busco: calidad del ensamble
 
-6. Staramr: Buscar genes de resistencia antimicrobiana  
+6. PlastFlow: Predicción de ADN plasmídico o cromosómico  
+
+7. Staramr: Buscar genes de resistencia antimicrobiana  
 
 ### Flujo de trabajo
 
@@ -107,7 +109,8 @@ Los genes de resistencia antimicrobiana identificados en los aislados de *Pseudo
 
 ## Contribución individual  
 Resumen breve
-Génesis Morocho: Creación del repositorio de github y añadir a los coolaboradores. Diseño del flujo de trabajo, investigación e interpretación de los genes de resistencia en plásmidos.
+Génesis Morocho: Creación del repositorio de github y añadir a los coolaboradores. Diseño del flujo de trabajo, investigación e interpretación de los genes de resistencia en plásmidos.  
+Jose Proaño: desarrollo de lineas de comando para el ensamblaje y calidad de secuencias  
 
 ## Cómo reproducir (scripts)
 
