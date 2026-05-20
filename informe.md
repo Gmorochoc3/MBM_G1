@@ -187,7 +187,9 @@ Figura 16. Distribución  de contigs de la secuencia SRR38520180 usando PlasFlow
 ### Análisis de resistencia antimicrobiana  
 
 Figura 17. Resumen de resultados del análisis genómico de la secuencia  SRR38509012 de P. aeruginosa.
-<img width="886" height="438" alt="image" src="https://github.com/user-attachments/assets/17afd988-ab47-4362-99f6-30f179c07ced" />
+
+<img width="954" height="439" alt="image" src="https://github.com/user-attachments/assets/0feaae57-7e81-47d0-881e-e4ffc69873c2" />
+
 
 Nota: En la primera secuencia se observa que la detección de los genes aph, blaOXA, blaPAO, catB7 y fosA evidencia un perfil de multirresistencia frente a familias de antibióticos de importancia clínica. Destaca especialmente la resistencia a ceftazidima y cefepima, fármacos de última línea empleados habitualmente en el tratamiento de infecciones graves causadas por este patógeno.
 
