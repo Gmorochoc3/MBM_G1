@@ -101,7 +101,7 @@ Figura 2. Detalle de la búsqueda de la secuencia SRR38509012
 Figura 3. Detalle de la búsqueda de la secuencia SRR38520180  
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/3a077da7-632d-416c-ab16-83e4f62d2287" />  
 
-### PROCESAMIENTO DE INFORMACIÓN GENÓMICA EN MÁQUINA VIRTUAL
+### PROCESAMIENTO DE INFORMACIÓN GENÓMICA EN UBUNTU
 
 El proceso de descarga se lo realizo utilizando el comando prefetch como se lo vizualiza en la Figura 4.  
 Se utilizo este comando ya que nos ayuda a tener una descarga mas eficiente y mas rapida en relacion a la que nos da NCBI.  
