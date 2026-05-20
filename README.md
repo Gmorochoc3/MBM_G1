@@ -110,7 +110,7 @@ Los genes de resistencia antimicrobiana identificados en los aislados de *Pseudo
 ## Contribución individual  
 
 Génesis Morocho: Creación del repositorio de github y añadir a los coolaboradores. Diseño del flujo de trabajo, investigación e interpretación de los genes de resistencia en plásmidos.  
-Jose Proaño: desarrollo de lineas de comando para el ensamblaje y calidad de secuencias.
+Jose Proaño: desarrollo de lineas de comando para el ensamblaje y calidad de secuencias.  
 Michelle Yugcha: Búsqueda se secuencias de trabajo y desarrollo del análisis en la plataforma Galaxy.  
 
 ## Cómo reproducir (scripts)
