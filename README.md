@@ -106,7 +106,9 @@ En conjunto, estas plataformas optimizan el tiempo de análisis, nos ayudaron a 
 Los genes de resistencia antimicrobiana identificados en los aislados de *Pseudomonas aeruginosa* se asociaron principalmente a ADN cromosómico y no plasmídico, lo que sugiere mecanismos de resistencia intrínseca o adaptativa propios de la bacteria. Además, las herramientas bioinformáticas utilizadas permitieron identificar eficientemente genes de resistencia y secuencias plasmídicas potenciales.
 
 ## Contribución individual  
-Resumen breve  
+Resumen breve
+Génesis Morocho: Creación del repositorio de github y añadir a los coolaboradores. Diseño del flujo de trabajo, investigación e interpretación de los genes de resistencia en plásmidos.
+
 ## Cómo reproducir (scripts)
 
 ## Tutorial de Galaxy
