@@ -199,6 +199,12 @@ Figura 18. Resumen de resultados del análisis genómico de la secuencia  SRR385
 
 Nota: En la segunda secuencia se identificó el gen aph(3')-IIb, el cual confiere resistencia a los aminoglucósidos, así como un conjunto de enzimas beta-lactamasas capaces de hidrolizar el anillo químico de la penicilina. Debido a esto, ya su resistencia demostrada a meropenem y ceftacidima, se clasificó a este aislamiento como una cepa multirresistente.  
 
+Finalmente en el ADN plasmídico no se detectaron genes de resistencia como se observa en la Figura 19, lo que se puede atribuir a que el microorganismo reserva sus genes de resistencia en el ADN cromosómico.
+
+Figura 19. Resultados de genes de resistencia en ADN plasmídico
+<img width="1025" height="789" alt="plasm" src="https://github.com/user-attachments/assets/1ff6009e-4eab-4c10-8dbd-25f840a695ec" />
+
+
 ## INTERPRETACIÓN BIOLÓGICA 
 
 El análisis bioinformático realizado en los aislados clínicos de *Pseudomonas aeruginosa* permitió identificar genes de resistencia antimicrobiana asociados principalmente a contigs clasificados como ADN cromosómico, mientras que no se detectaron genes de resistencia en secuencias plasmídicas predichas mediante la herramienta PlasFlow.  
