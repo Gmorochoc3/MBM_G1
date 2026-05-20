@@ -38,6 +38,16 @@ mkdir Output_Spades
 ##correr fuera de la carpeta ensamblar
 spades.py -1 TrimmedReads/SRR38509012_1_val_1.fq.gz -2 TrimmedReads/SRR38509012_2_val_2.fq.gz -o Output_Spades/SRR38509012 -t 8 -m 15
 
-spades.py -1 TrimmedReads/SRR38520180_1_val_1.fq.gz -2 TrimmedReads/SRR38520180_2_val_2.fq.gz -o Output_Spades/SRR38520180 -t 8 -m 15
+spades.py -1 TrimmedReads/SRR38520180_1_val_1.fq.gz -2 TrimmedReads/SRR38520180_2_val_2.fq.gz -o Output_Spades/SRR38520180 -t 8 -m 15  
+
+busco --list-datasets # busca genoma de referencia  
+busco --download   #descarga genoma de referencia  
+
+calidad del ensamblaje ..  
+
+
+busco -m genome -i Output_Spades/SRR38509012/SRR38509012.contigs.fasta -o output.assembly.busco/busco.calidad_1 -l /home/usuario/Escritorio/PF/Output_Spades/busco_downloads/lineages/pseudomonas_odb12 -f -c10  
+
+busco -m genome -i Output_Spades/SRR38520180/SRR38520180.contigs.fasta -o output.assembly.busco/busco.calidad_1 -l /home/usuario/Escritorio/PF/Output_Spades/busco_downloads/lineages/pseudomonas_odb12 -f -c10  
 
 
