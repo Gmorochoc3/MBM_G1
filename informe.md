@@ -35,13 +35,16 @@ FastQC: revisión de calidad de lecturas
 
 Trim Galore: permite la limpieza de los datos crudos
 
-SPAdes: formación de conting
+SPAdes: formación de conting  
+
+Busco: calidad del ensamble  
 
 PlastFlow: predicción de ADN plasmídico o cromosómico
 
 Staramr: buscar genes de resistencia antimicrobiana
 
-WORKFLOW
+WORKFLOW  
+
 El workflow bioinformático inició con la descarga de secuencias genómicas desde la base de datos SRA del NCBI correspondientes a los aislados clínicos SRR38520180 y SRR38509012.  
 
 Posteriormente, se realizó el control de calidad de las lecturas utilizando FastQC y la limpieza de adaptadores y lecturas de baja calidad mediante TrimGalore.  
