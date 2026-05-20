@@ -149,7 +149,14 @@ Figura 9. Ensamblaje de novo con herramienta spades
 Donde vamos a tener los sguientes archivos    
 
 Figura 10. Resultado del uso de la herramienta spades    
-<img width="432" height="966" alt="image" src="https://github.com/user-attachments/assets/f32bb00c-bf76-4957-a99f-43f26fb85819" />  
+<img width="432" height="966" alt="image" src="https://github.com/user-attachments/assets/f32bb00c-bf76-4957-a99f-43f26fb85819" />   
+
+### Control de calidad de ensamblaje  
+Para el control de calidad se utilizo la siguiente linea: busco -m genome -i Output_Spades/SRR38509012/SRR38509012.contigs.fasta -o output.assembly.busco/busco.calidad_1 -l /home/usuario/Escritorio/PF/Output_Spades/busco_downloads/lineages/pseudomonas_odb12 -f -c10  
+
+Figura 11. control de calidad del ensamblaje  
+<img width="820" height="538" alt="imagen" src="https://github.com/user-attachments/assets/740143f8-f9db-4af7-9a59-590e9e3d8cd6" />
+
 
 ## PROCESAMIENTO DE INFORMACIÓN GENÓMICA EN LA PLATAFORMA GALAXY
 
@@ -157,12 +164,12 @@ Los datos genómicos descargados que contiene los contigs en formato FASTA fuero
 
 El análisis de la resistencia antimicrobiana se realizó utilizando la plataforma Galaxy, y se hizo uso del tutorial "Antibiotic resistance detection" (Figura 11) que se encuentra en el siguiente enlace: https://training.galaxyproject.org/training-material/topics/microbiome/tutorials/plasmid-metagenomics-nanopore/tutorial.html.   
 
-Figura 11. Tutorial de Galaxy utilizado "Antibiotic resistance detection"
+Figura 12. Tutorial de Galaxy utilizado "Antibiotic resistance detection"
 <img width="1400" height="900" alt="tut" src="https://github.com/user-attachments/assets/b89efbb2-1a5e-4813-ad46-1b046c761e19" />
 
 Además, se creó un History denominado "Genes de resistencia en aislados de Pseudomonas aeruginosa" con el link de acceso: https://galaxy-main.usegalaxy.org/u/michelle_yugcha/h/genes-de-resistencia-en-aislados-de-pseudomonas-aeruginosa, donde se cargaron las secuencias ensambladas resultantes del procesamiento en la máquina virtual. 
 
-Figura 12. History denominado "Genes de resistencia en aislados de Pseudomonas aeruginosa" para el procesamiento de secuencias.
+Figura 13. History denominado "Genes de resistencia en aislados de Pseudomonas aeruginosa" para el procesamiento de secuencias.
 <img width="1850" height="900" alt="his" src="https://github.com/user-attachments/assets/97b61404-ddd4-4459-a4bc-631145ba1a73" />
 
 ### Predicción de secuencias plasmídicas y cromosómicas
@@ -172,21 +179,21 @@ En este proyecto, PlasFlow permitió identificar posibles contigs plasmídicos e
 
 Con resultado se obtuvo la clasificación de los contigs de forma tabulada de la secuencia SRR38509012 (Figura 13) y de la secuencia SRR38520180 (Figura 14). De la secuencia SRR38509012 que contenía 97 contigs, estos se clasificaron principalmente, 46 contigs como parte de ADN cromosómico de proteobacterias  y 18 contigs de ADN plasmídico de proteobacterias, como se muestra en la Figura 15. De igual forma,  se da en la secuencia SRR38520180 que presenta 146 contigs distribuidos principalmente como 73 contigs de ADN cromosómico de proteobacterias  y 26 contigs de ADN plasmídico de proteobacterias (Figura 16). Además, en ambas secuencias es predominante en tamaño de pares de bases el ADN cromosómico.   
 
-Figura 13. Tabla de clasificación de contigs de la secuencia SRR38509012 usando PlasFlow.   
+Figura 14. Tabla de clasificación de contigs de la secuencia SRR38509012 usando PlasFlow.   
 <img width="1500" height="800" alt="9012 tab" src="https://github.com/user-attachments/assets/9b2fe124-d10c-4c70-87fb-708a70e94ca6" />
 
-Figura 14. Tabla de clasificación de contigs de la secuencia SRR38520180 usando PlasFlow. 
+Figura 15. Tabla de clasificación de contigs de la secuencia SRR38520180 usando PlasFlow. 
 <img width="1500" height="800" alt="0180 tab" src="https://github.com/user-attachments/assets/c445bd0a-fbb1-4fbe-aef4-fdb33624408c" />
 
-Figura 15. Distribución de contigs de la secuencia SRR38509012 usando PlasFlow.
+Figura 16. Distribución de contigs de la secuencia SRR38509012 usando PlasFlow.
 <img width="700" height="500" alt="9012 bar" src="https://github.com/user-attachments/assets/8609c170-6532-4611-80e0-04a1aadc07cc" />
 
-Figura 16. Distribución  de contigs de la secuencia SRR38520180 usando PlasFlow.
+Figura 17. Distribución  de contigs de la secuencia SRR38520180 usando PlasFlow.
 <img width="700" height="500" alt="0180 bar" src="https://github.com/user-attachments/assets/e3d42b13-d837-4134-b34e-6682fcc82f3a" />
 
 ### Análisis de resistencia antimicrobiana  
 
-Figura 17. Resumen de resultados del análisis genómico de la secuencia  SRR38509012 de P. aeruginosa.
+Figura 18. Resumen de resultados del análisis genómico de la secuencia  SRR38509012 de P. aeruginosa.
 
 <img width="954" height="439" alt="image" src="https://github.com/user-attachments/assets/0feaae57-7e81-47d0-881e-e4ffc69873c2" />
 
@@ -194,14 +201,14 @@ Figura 17. Resumen de resultados del análisis genómico de la secuencia  SRR385
 Nota: En la primera secuencia se observa que la detección de los genes aph, blaOXA, blaPAO, catB7 y fosA evidencia un perfil de multirresistencia frente a familias de antibióticos de importancia clínica. Destaca especialmente la resistencia a ceftazidima y cefepima, fármacos de última línea empleados habitualmente en el tratamiento de infecciones graves causadas por este patógeno.
 
 
-Figura 18. Resumen de resultados del análisis genómico de la secuencia  SRR38520180   de P. aeruginosa.
+Figura 19. Resumen de resultados del análisis genómico de la secuencia  SRR38520180   de P. aeruginosa.
 <img width="959" height="476" alt="image" src="https://github.com/user-attachments/assets/35f54c48-a67e-42a9-90c8-808bf233e824" />
 
 Nota: En la segunda secuencia se identificó el gen aph(3')-IIb, el cual confiere resistencia a los aminoglucósidos, así como un conjunto de enzimas beta-lactamasas capaces de hidrolizar el anillo químico de la penicilina. Debido a esto, ya su resistencia demostrada a meropenem y ceftacidima, se clasificó a este aislamiento como una cepa multirresistente.  
 
 Finalmente en el ADN plasmídico no se detectaron genes de resistencia como se observa en la Figura 19, lo que se puede atribuir a que el microorganismo reserva sus genes de resistencia en el ADN cromosómico.
 
-Figura 19. Resultados de genes de resistencia en ADN plasmídico
+Figura 20. Resultados de genes de resistencia en ADN plasmídico
 <img width="1025" height="789" alt="plasm" src="https://github.com/user-attachments/assets/1ff6009e-4eab-4c10-8dbd-25f840a695ec" />
 
 
