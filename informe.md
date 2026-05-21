@@ -214,7 +214,7 @@ Finalmente en el ADN plasmídico no se detectaron genes de resistencia como se o
 Figura 20. Resultados de genes de resistencia en ADN plasmídico
 <img width="1025" height="789" alt="plasm" src="https://github.com/user-attachments/assets/1ff6009e-4eab-4c10-8dbd-25f840a695ec" />
 
-
+Se utilizaron herramientas de IA para la corrección y aplicación de comandos al momento de hacer tanto la descarga de las secuencias desde la base de datos hasta la finalizacion con la identificación de los genes de resistencia 
 ## INTERPRETACIÓN BIOLÓGICA 
 
 El análisis bioinformático realizado en los aislados clínicos de *Pseudomonas aeruginosa* permitió identificar genes de resistencia antimicrobiana asociados principalmente a contigs clasificados como ADN cromosómico, mientras que no se detectaron genes de resistencia en secuencias plasmídicas predichas mediante la herramienta PlasFlow.  
